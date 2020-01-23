@@ -1,0 +1,12 @@
+--- 
+- hosts: localhost
+  connection: local
+  vars_files:
+   - infra.yml
+  roles:
+    - role: setup-weblogic
+      tags: install
+    #- role: app-deployment
+    #  tags: deploy
+    #  when: app_deplyment_flag
+     
