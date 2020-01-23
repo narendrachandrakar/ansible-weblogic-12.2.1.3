@@ -1,5 +1,5 @@
 --- 
-- hosts: web
+- hosts: app
 #- hosts: localhost
   #connection: local
   vars_files:
