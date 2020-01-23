@@ -1,6 +1,7 @@
 --- 
-- hosts: localhost
-  connection: local
+- hosts: web
+#- hosts: localhost
+  #connection: local
   vars_files:
    - infra.yml
   roles:
